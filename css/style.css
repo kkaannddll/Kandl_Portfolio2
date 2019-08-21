@@ -1,0 +1,746 @@
+@font-face {
+  font-family: 'modestow01-lighttextregular';
+  src: url('../fonts/modesto_w01_light_text-webfont.woff2') format('woff2'),
+    url('../fonts/modesto_w01_light_text-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'helveticaregular';
+  src: url('../fonts/helvetica-webfont.woff2') format('woff2'),
+    url('../fonts/helvetica-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #00F0FF;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: helveticaregular;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+button {
+  border: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-family: modestow01-lighttextregular;
+  font-size: 1.75em;
+}
+
+h2 {
+  font-size: 1.25em;
+  line-height: 175%;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+h3 {
+  font-family: helveticaregular;
+  text-align: center;
+  font-size: 24px;
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+
+h4 {
+  font-size: 24px;
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+
+h5 {
+  font-family: modestow01-lighttextregular;
+  font-size: 24px;
+  padding-bottom: 0;
+  padding-top: 60px;
+  text-align: left;
+  margin-left: 17%;
+}
+
+h6 {
+  font-family: modestow01-lighttextregular;
+  font-size: 24px;
+  padding-bottom: 0;
+  padding-top: 60px;
+  text-align: center;
+}
+
+hr {
+  align: center;
+  width: 80%;
+}
+
+p {
+  display: block;
+  font-size: 16px;
+  letter-spacing: .2px;
+  margin-block-end: 1em;
+  margin-block-start: 1em;
+  margin-inline-end: 0;
+  margin-inline-start: 0;
+  padding: 24px 24px 40px;
+}
+
+header, footer {
+  background-color: #000000;
+  background-image: url(images/header-bg.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #00F0FF;
+  padding-left: 0;
+}
+
+footer {
+  padding-bottom: 75px;
+  padding-top: 45px;
+}
+
+nav {
+  font-family: modestow01-lighttextregular;
+  padding-top: 30px;
+}
+
+nav ul {
+  list-style: none;
+  margin-left: 0;
+  padding-bottom: 30px;
+  padding-left: 0;
+  text-align: center;
+}
+
+.aboutphoto {
+  max-width: 100vw;
+  padding-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.maboutphoto {
+  max-width: 100vw;
+  padding-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutMSPphoto {
+  max-width: 100vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.daboutphoto {
+  display: none;
+}
+
+.protologo {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+.landscapescr {
+  max-width: 260px;
+  display: block;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.aaeenaimgcolors {
+  max-width: 260px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 110px;
+  width: 300px;
+  padding: 30px;
+}
+
+.casestudy {
+  height: 680px;
+  padding-bottom: 60px;
+  width: 315px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.competicons {
+  display: block;
+  width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: 0 auto;
+}
+
+.education {
+  list-style: none;
+  list-style-type: none;
+  padding-bottom: 60px;
+}
+
+.footerlinks {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.greyback {
+  background-color: #EEEEEE;
+}
+
+.greyBoxes {
+  background-color: #EEEEEE;
+  font-size: 12px;
+  margin: 12px;
+  padding: 8px;
+}
+
+.hero-content {
+  padding: 2%;
+}
+
+.iconlinks {
+  height: 24px;
+  width: 24px;
+  padding: 20px;
+}
+
+.link {
+  display: inline;
+  padding: 20px;
+}
+
+.logo {
+  display: block;
+  height: 260px;
+  width: 260px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+}
+
+.personas {
+  display: block;
+  width: 260px;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-nav h1 {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.ulCenter {
+  padding-left: 18%;
+}
+
+.aaeenaimg, .aaeenatitleimg, .hifiimg, .finalimgbottom, .protoimg, .aaeenaimgwire {
+  max-width: 260px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+.interests, .skills {
+  display: inline-block;
+  height: auto;
+  margin: 0;
+  padding: 1em;
+}
+
+@media (min-width: 991px) {
+  h1 {
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+
+  h5 {
+    margin-left: 0;
+    margin-right: 15%;
+  }
+
+  h6 {
+    font-size: 24px;
+    text-align: left;
+    margin-left: 17%;
+    margin-right: 17%;
+    padding: 60px 10% 0;
+  }
+
+  header {
+    overflow: auto;
+    min-height: 67px;
+  }
+
+  header h2 {
+    float: left;
+    padding-top: 80px;
+    text-align: left;
+  }
+
+  hr {
+    display: none;
+  }
+
+  p {
+    display: block;
+    font-size: .8em;
+    letter-spacing: .2px;
+    margin-block-end: 1em;
+    margin-block-start: 1em;
+    margin-inline-end: 0;
+    margin-inline-start: 0;
+    max-width: 500px;
+    padding: 24px 10% 40px;
+  }
+
+  /* index */
+  .left-column {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 0 auto;
+  }
+
+  .right-column {
+    display: inline-block;
+    margin: 0 auto;
+    padding-top: 80px;
+  }
+
+  .indexmain {
+    margin-bottom: 80px;
+    text-align: center;
+  }
+
+
+
+
+
+
+  /* case study */
+  .case-study p {
+  	margin-left: 17%;
+  	margin-right: 17%;
+  }
+
+  .aaeenaimg {
+  	max-width: none;
+  	padding-left: 100px;
+  	padding-top: 60px;
+  	padding-bottom: 60px;
+  	width: 600px;
+  	margin: 0 auto;
+  }
+
+  .aaeenaimgwire {
+  	max-width: none;
+  	display: inline-block;
+  	padding: 60px 0 0;
+  }
+
+  .aaeenatitleimg {
+  	width: 260px;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	padding: 30px;
+  }
+
+  .AaeenaRolesroles {
+  	padding: 20px 17%;
+  }
+
+  .aaeenaimgcolors {
+  	width: 300px;
+  	height: 215px;
+  	margin: 0;
+  	padding: 60px 100px 0 0;
+  }
+
+  .protoimg {
+  	width: 375px;
+  	display: inline-block;
+  	padding: 60px 60px 0 0;
+  }
+
+  .competicons {
+  	width: 300px;
+  	display: block;
+  	padding-left: 10%;
+  	margin: 0 17%;
+  }
+
+  .contentbody {
+  	padding: 0 10%;
+  }
+
+  .personas {
+  	display: block;
+  	width: 360px;
+  	margin-left: 17%;
+  	margin-right: 17%;
+  	padding-left: 110px;
+  }
+
+  .logo {
+  	clear: left;
+  	float: left;
+  	margin: 2% 2% 2% 8%;
+  }
+
+  .top-nav h1 {
+  	float: left;
+  	padding-left: 20px;
+  }
+
+  .hifiimg {
+  	width: 375px;
+  	margin-left: 7%;
+  	display: inline-block;
+  	padding: 60px 0 0 30px;
+  }
+
+  .centerimages {
+  	margin-left: 17%;
+  	padding: 0;
+  }
+
+  .finalimg {
+  	width: 300px;
+  	display: inline-block;
+  	align-items: center;
+  	margin: 0 auto;
+  	padding: 30px;
+  }
+
+  .finalimgbottom {
+  	width: 812px;
+  	display: block;
+  	align-items: center;
+  	padding: 30px;
+  }
+
+  .greyBoxes {
+  	margin-right: 17%;
+  	margin-left: 17%;
+  	padding-left: 10%;
+  	padding-right: 10%;
+  	font-size: 20px;
+  }
+
+  .landscapescr {
+  	margin-left: 100px;
+  	min-width: 620px;
+  	padding-left: 0;
+  	padding-right: 0;
+  }
+
+  .ulCenter {
+  	padding-left: 0;
+  	padding-right: 10%;
+  	min-width: 200px;
+  }
+
+  .protologo {
+  	width: 260px;
+  	margin: 0;
+  	padding: 60px 100px 0 0;
+  }
+
+  nav,
+  .footerlinks {
+  	float: right;
+  }
+
+  .leftcol,
+  .usetestA {
+  	display: inline-block;
+  	vertical-align: top;
+  	margin-left: 17%;
+  	padding-left: 10%;
+  }
+
+  .rightcol,
+  .usetestB {
+  	display: inline-block;
+  }
+
+  .case-study p {
+  	margin-left: 17%;
+  	margin-right: 17%;
+  }
+
+  .aaeenaimg {
+  	max-width: none;
+  	padding-left: 100px;
+  	padding-top: 60px;
+  	padding-bottom: 60px;
+  	width: 600px;
+  	margin: 0 auto;
+  }
+
+  .aaeenaimgwire {
+  	max-width: none;
+  	display: inline-block;
+  	padding: 60px 0 0;
+  }
+
+  .aaeenatitleimg {
+  	width: 260px;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	padding: 30px;
+  }
+
+  .AaeenaRolesroles {
+  	padding: 20px 17%;
+  }
+
+  .aaeenaimgcolors {
+  	width: 300px;
+  	height: 215px;
+  	margin: 0;
+  	padding: 60px 100px 0 0;
+  }
+
+  .protoimg {
+  	width: 375px;
+  	display: inline-block;
+  	padding: 60px 60px 0 0;
+  }
+
+  .competicons {
+  	width: 300px;
+  	display: block;
+  	padding-left: 10%;
+  	margin: 0 17%;
+  }
+
+  .contentbody {
+  	padding: 0 10%;
+  }
+
+  .personas {
+  	display: block;
+  	width: 360px;
+  	margin-left: 17%;
+  	margin-right: 17%;
+  	padding-left: 110px;
+  }
+
+  .logo {
+  	clear: left;
+  	float: left;
+  	margin: 2% 2% 2% 8%;
+  }
+
+  .top-nav h1 {
+  	float: left;
+  	padding-left: 20px;
+  }
+
+  .hifiimg {
+  	width: 375px;
+  	margin-left: 7%;
+  	display: inline-block;
+  	padding: 60px 0 0 30px;
+  }
+
+  .centerimages {
+  	margin-left: 17%;
+  	padding: 0;
+  }
+
+  .finalimg {
+  	width: 300px;
+  	display: inline-block;
+  	align-items: center;
+  	margin: 0 auto;
+  	padding: 30px;
+  }
+
+  .finalimgbottom {
+  	width: 812px;
+  	display: block;
+  	align-items: center;
+  	padding: 30px;
+  }
+
+  .greyBoxes {
+  	margin-right: 17%;
+  	margin-left: 17%;
+  	padding-left: 10%;
+  	padding-right: 10%;
+  	font-size: 20px;
+  }
+
+  .landscapescr {
+  	margin-left: 100px;
+  	min-width: 620px;
+  	padding-left: 0;
+  	padding-right: 0;
+  }
+
+  .ulCenter {
+  	padding-left: 0;
+  	padding-right: 10%;
+  	min-width: 200px;
+  }
+
+  .protologo {
+  	width: 260px;
+  	margin: 0;
+  	padding: 60px 100px 0 0;
+  }
+
+  nav,
+  .footerlinks {
+  	float: right;
+  }
+
+  .leftcol,
+  .usetestA {
+  	display: inline-block;
+  	vertical-align: top;
+  	margin-left: 17%;
+  	padding-left: 10%;
+  }
+
+  .rightcol,
+  .usetestB {
+  	display: inline-block;
+  }
+
+
+
+
+
+
+  /*-- About --*/
+
+  li {
+  	font-size: 16px;
+  }
+
+  .aboutGrid {
+  	display: grid;
+  	grid-template-areas: "text1 pic1" "text2 pic2" "text3 pic3" "text4 pic3";
+  }
+
+  .aboutphoto {
+  	padding: 60px;
+  	display: block;
+  }
+
+  .imgright {
+  	width: 40%;
+  	display: block;
+  }
+
+  .textleft {
+  	width: 60%;
+  	display: block;
+  }
+
+  .maboutphoto {
+  	/*photos hidding in desktop view */
+  	display: none;
+  }
+
+  .daboutphoto {
+  	/*combo photo appearing only in desktop view*/
+  	display: block;
+  }
+
+  .text1 {
+  	grid-area: text1;
+  	padding-top: 0px;
+  	font-size: 16px;
+  	margin-left: 20%;
+  }
+
+  .text2 {
+  	grid-area: text2;
+  	margin-top: -100px;
+  	font-size: 16px;
+  	margin-left: 20%;
+  }
+
+  .text3 {
+  	grid-area: text3;
+  	margin-top: -160px;
+  	font-size: 16px;
+  	padding-bottom: 0px;
+  	margin-left: 20%;
+  }
+
+  .text4 {
+  	grid-area: text4;
+  	display: grid;
+  	padding-left: 60px;
+  	font-size: 16px;
+  	grid-template-columns: 1fr 1fr;
+  	margin-left: 20%;
+  }
+
+  .pic1 {
+  	grid-area: pic1;
+  	margin-right: 20%;
+  }
+
+  .pic2 {
+  	grid-area: pic2;
+  	margin-right: 20%;
+  }
+
+  .pic6 {
+  	grid-area: pic3;
+  	grid-row: 3/5;
+  	padding: 50px;
+  	margin-right: 20%;
+  }
+
+  .lefttext {}
+
+  .righttext {
+  	margin-left: -10%;
+  }
+
+
+  }
